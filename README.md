@@ -17,7 +17,7 @@ Add this to your Neovim configuration:
 ```lua
 -- If using lazy.nvim
 {
-    "",
+    "TheLazyCat00/Skeli",
     event = "VeryLazy",
     opts = {},
 }
