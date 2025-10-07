@@ -1,4 +1,4 @@
-# Skeleton Template Plugin
+# Skeli
 
 A Neovim plugin that automatically applies skeleton templates to empty buffers based on filename patterns.
 
@@ -17,10 +17,9 @@ Add this to your Neovim configuration:
 ```lua
 -- If using lazy.nvim
 {
-    dir = "path/to/your/skeleton/plugin",
-    config = function()
-        require('skeleton').setup()
-    end
+    "",
+    event = "VeryLazy",
+    opts = {},
 }
 
 -- Or directly in your init.lua
